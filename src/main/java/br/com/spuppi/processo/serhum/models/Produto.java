@@ -21,6 +21,9 @@ public class Produto {
 	
 	@NotNull
 	int valor;
+	
+	@NotNull
+	int quantidade;
 
 	public Long getId() {
 		return id;
@@ -39,6 +42,12 @@ public class Produto {
 	}
 	public void setValor(int valor) {
 		this.valor = valor;
+	}
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
 	}
 	@Override
 	public String toString() {

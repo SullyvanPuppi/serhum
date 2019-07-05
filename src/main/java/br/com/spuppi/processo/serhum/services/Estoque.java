@@ -1,10 +1,12 @@
 package br.com.spuppi.processo.serhum.services;
 
-public class DoisEmUm implements EstoqueInterface{
+public class Estoque implements EstoqueInterface{
 
 	@Override
 	public int calcular(int valor) {
-		return valor * 2;
+		return valor;
 	}
 
+	
+	
 }
